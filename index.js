@@ -15,3 +15,19 @@ function saludar(nombre) {
 
 // Prueba de función
 saludar("Equipo JS");
+
+function mostrarEstado(){
+  console.log(chalk.white('🚀 Inicio del programa... ¡que comience el caos controlado!'));
+  console.info(chalk.blue('⚙️ Proceso en ejecución... o eso espero. Nadie lo sabe realmente.'));
+  console.log(chalk.green('✅ ¡Finalización exitosa! Celebra con un snack, lo mereces.'));
+}
+
+mostrarEstado();
+
+function simularError(){
+  console.log(chalk.yellow('🙈 Advertencia: algo huele raro en el código... ¿fuiste tú?'));
+  console.info(chalk.red('💥 Error crítico: el desarrollador necesita más café urgentemente.'));
+  console.log(chalk.green('🦾 Recuperación épica completada. El héroe ha vuelto.'));
+}
+
+simularError();
